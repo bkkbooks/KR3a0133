@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR3a0133/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3a0133/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 厲學一卷
+  identifiers:
+    krp: KR3a0133
+  tags:
+    kr-categories: KR3a
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR3a0133.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3a0133_001-CHANT.yaml, hash: 'sha256:5960806be9514b2638365c899f15fff08ee309647a8e8d27d70a5c6c6193cd21'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3a0133_001-CHANT.markers.yaml, hash: 'sha256:2832a8ca1f4a0239a46ab8b2b85ef2da67d95956bd6f9cfb0699506fb377bb7a'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3a0133_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 554
+  label: 厲學
+  type: section
+  level: 1
+hash: sha256:170176674a8f1ce90d2086f6cde6da557ce9395f3e896765492badb2bec794e9
